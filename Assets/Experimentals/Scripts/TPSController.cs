@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -58,5 +59,25 @@ public class TPSController : MonoBehaviour
             playerCameraParent.localRotation = Quaternion.Euler(rotation.x, 0, 0);
             transform.eulerAngles = new Vector2(0, rotation.y);
         }
+        if (canMove && Input.GetKeyDown("b")){
+            Blink();
+        }
+        if (canMove && Input.GetKeyDown("v")){
+            StartCoroutine(SpeedBuff(3f, 7.5f));
+        }
+    }
+
+    float blinkDistance = 5.0f;
+
+    public void Blink(){
+        Vector3 displacement = transform.TransformDirection(Vector3.forward);
+        displacement.y = 0;
+        transform.position += displacement.normalized * blinkDistance;
+    }
+
+    public IEnumerator SpeedBuff(float duration, float buffedSpeed){
+        speed += buffedSpeed;
+        yield return new WaitForSeconds(duration);
+        speed += -buffedSpeed;
     }
 }
