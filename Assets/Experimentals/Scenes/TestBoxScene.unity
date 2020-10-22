@@ -1178,22 +1178,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lewis_BackPack
       objectReference: {fileID: 0}
-    - target: {fileID: 400072, guid: f16d6c7fdc5ff8f46a104c5ae5a0d172, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.020210776
-      objectReference: {fileID: 0}
-    - target: {fileID: 400072, guid: f16d6c7fdc5ff8f46a104c5ae5a0d172, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.079688765
-      objectReference: {fileID: 0}
-    - target: {fileID: 400076, guid: f16d6c7fdc5ff8f46a104c5ae5a0d172, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0027041247
-      objectReference: {fileID: 0}
-    - target: {fileID: 400076, guid: f16d6c7fdc5ff8f46a104c5ae5a0d172, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.029645022
-      objectReference: {fileID: 0}
     - target: {fileID: 400086, guid: f16d6c7fdc5ff8f46a104c5ae5a0d172, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1237,6 +1221,22 @@ PrefabInstance:
     - target: {fileID: 400086, guid: f16d6c7fdc5ff8f46a104c5ae5a0d172, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: f16d6c7fdc5ff8f46a104c5ae5a0d172, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.020210776
+      objectReference: {fileID: 0}
+    - target: {fileID: 400072, guid: f16d6c7fdc5ff8f46a104c5ae5a0d172, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.079688765
+      objectReference: {fileID: 0}
+    - target: {fileID: 400076, guid: f16d6c7fdc5ff8f46a104c5ae5a0d172, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0027041247
+      objectReference: {fileID: 0}
+    - target: {fileID: 400076, guid: f16d6c7fdc5ff8f46a104c5ae5a0d172, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.029645022
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: f16d6c7fdc5ff8f46a104c5ae5a0d172, type: 3}
       propertyPath: m_Controller
